@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated model files
+data/processed/model_artifacts/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+# Large generated datasets
+data/raw/telemetry.csv
+data/processed/training_dataset.csv
